@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Stream Sync - Help and Feedback</title>
+    <style>
+        html, body {
+            height: 100%;
+            margin: 0;
+            font-family: Arial, sans-serif;
+            color: white; /* Optional: makes text more readable on dark background */
+            background: linear-gradient(180deg, #135B48 6%, #000000 100%); /* Gradient background */
+        }
+        .button {
+            font-family: Arial, sans-serif;
+            font-size: 16px;
+            padding: 10px 20px;
+            margin: 10px;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        .help-button {
+            background-color: #4CAF50; /* Green */
+            color: white;
+        }
+        .feedback-button {
+            background-color: #2196F3; /* Blue */
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <h1>Stream Sync - Help and Feedback</h1>
+    <button class="button help-button" onclick="showHelp()" title="Get help with using Stream Sync">
+        Need Assistance?
+    </button>
+    <button class="button feedback-button" onclick="showFeedback()" title="Provide your feedback on Stream Sync">
+        Share Your Feedback
+    </button>
+
+    <script>
+        function showHelp() {
+            alert("Having trouble? We're here to help you navigate and make the most out of Stream Sync. Click here for support and resources.");
+        }
+
+        function showFeedback() {
+            alert("We value your opinion! Please share your thoughts and suggestions to help us improve Stream Sync. Click here to give feedback.");
+        }
+    </script>
+</body>
+</html>
